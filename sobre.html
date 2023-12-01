@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="with-device-with, initial-scale = 1.0">
+        <meta charset="utf-8">
+        <title>Marquee Arquitetura</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="scriptsobre.js" defer></script>    
+        
+    <head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Imagens/logo copy.webp"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+               <h1>Sobre Nós</h1> 
+        </section>
+        <!---Sobre nós conteudo-->
+        <section class="sobre-nos">
+            <h2>Depoimentos de Clientes</h2><br>
+            <div class="container-slider-pr5">
+                <button id="prev-button5"><img src="Imagens/arrow.png" alt="prev-button5"></button>
+                <div class="container-images-pr5">
+                  <img src="Imagens/avaliacoes/comentario01.webp" alt="avaliacao1" class="slider5 on5">
+                  <img src="Imagens/avaliacoes/comentario02.webp" alt="avaliacao2" class="slider5">
+                  <img src="Imagens/avaliacoes/comentario03.webp" alt="avaliacao3" class="slider5">
+                  <img src="Imagens/avaliacoes/comentario04.webp" alt="avaliacao4" class="slider5">
+                </div>
+                <button id="next-button5"><img src="Imagens/arrow.png" alt="next-button5"></button>
+            </div>
+            <div class="row">
+                <div class="sobre-col">
+                    <h1>Equipe</h1>
+                    <p>Nossa equipe é composta por: <br> <strong>Diogo Cardoso | CAU A162865-8</strong>
+                        arquiteto | sócio diretor <br> <strong>Cassiany Sodré </strong>
+                        gestora de marketing | sócia<br>
+                    <a href="contato.html" class="hero-btn red-btn">Fale conosco</a>
+                </div>
+                <div class="sobre-col">
+                
+                </div>
+            </div>
+        </section>
+
+        <!---CTA-->
+
+        <!--JavaScript para fechar e abrir o menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <!---FOOTER-->
+        <section class="footer">
+            <h4>SOBRE NÓS</h4>
+            <p>Somos um escritório de arquitetura, sediado em Brasília - DF, com atendimento em todo o Brasil.<br>
+            Oferecendo design, aliado de técnicas inovadoras e tecnologia de ponta. Implicando em uma arquitetura mais assertiva utilizando tecnologia BIM (Building Information Modeling), reduzindo os custos e maximizando as etapas das obras.<br>
+            Somos dedicados à realização de projetos residenciais, comerciais e coorporativos de alto padrão.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </section>
+
+    </body>
+</html>

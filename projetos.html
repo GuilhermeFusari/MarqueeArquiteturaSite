@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="with-device-with, initial-scale = 1.0">
+        <meta charset="utf-8">
+        <title>Marquee Arquitetura</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="script.js" defer></script>  
+        <head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Imagens/logo copy.webp"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+               <h1>Projetos Marquee Arquitetura</h1> 
+        </section>
+        <!---projetos-->
+        <section class="projetos">
+            <h1>Projetos de Sucesso</h1>
+            <p>Alguns dos projetos realizados pela nossa companhia</p>
+            <div class="projetos ca">
+                <button type="button" onclick="Mudarestado('casa1')">
+                <div class="projetos-col">
+                    <img src="Imagens/casa1.png" alt="">
+                    <h3>Casa d.l</h3>
+                    <p>Arniqueiras - DF</p>
+                </div></button>
+                <div id="casa1">
+                    <div class="container-slider-pr">
+                        <button id="prev-button"><img src="Imagens/arrow.png" alt="prev-button"></button>
+                        <div class="container-images-pr">
+                            <img src="Imagens/casa1/img1.webp"  alt="img1"     class="slider on">
+                            <img src="Imagens/casa1/img2.webp"  alt = "img2"   class="slider">
+                            <img src="Imagens/casa1/img3.webp"  alt = "img3"   class="slider">
+                            <img src="Imagens/casa1/img5.webp"  alt = "img5"   class="slider">
+                            <img src="Imagens/casa1/img6.webp"  alt = "img6"   class="slider">
+                            <img src="Imagens/casa1/img7.webp"  alt = "img7"   class="slider">
+                            <img src="Imagens/casa1/img8.webp"  alt = "img8"   class="slider">
+                            <img src="Imagens/casa1/img9.webp"  alt = "img9"   class="slider">
+                            <img src="Imagens/casa1/img10.webp" alt = "img10" class="slider">
+                            <img src="Imagens/casa1/img11.webp" alt = "img11" class="slider">
+                            <img src="Imagens/casa1/img12.webp" alt = "img12" class="slider">
+                            <img src="Imagens/casa1/img13.webp" alt = "img13" class="slider">
+                            <img src="Imagens/casa1/img14.webp" alt = "img14" class="slider">
+                            <img src="Imagens/casa1/img15.webp" alt = "img15" class="slider">
+                            <img src="Imagens/casa1/img16.webp" alt = "img16" class="slider">
+                            <img src="Imagens/casa1/img17.webp" alt = "img17" class="slider">
+                            
+                        </div>
+                        <button id="next-button"><img src="Imagens/arrow.png" alt="next-button"></button>
+                    </div>
+                </div>
+                <button type="button" onclick="Mudarestado('casa2')">
+                <div class="projetos-col">
+                    <img src="Imagens/casa2.png" alt="">
+                    <h3>Casa g.e</h3>
+                    <p>Riacho Fundo - DF</p>
+                </div></button>
+                <div id="casa2">
+                    <div class="container-slider-pr">
+                        <button id="prev-button2"><img src="Imagens/arrow.png" alt="prev-button2"></button>
+                        <div class="container-images-pr">
+                            <img src="Imagens/casa2/01.jpg"  alt="img1"     class="slider2 on2">
+                            <img src="Imagens/casa2/02.jpg"  alt = "img2"   class="slider2">
+                            <img src="Imagens/casa2/03.jpg"  alt = "img3"   class="slider2">
+                            <img src="Imagens/casa2/04.jpg"  alt = "img4"   class="slider2">
+                            <img src="Imagens/casa2/05.jpg"  alt = "img5"   class="slider2">
+                            <img src="Imagens/casa2/07.jpg"  alt = "img6"   class="slider2">
+                            <img src="Imagens/casa2/07.jpg"  alt = "img7"   class="slider2">
+                            <img src="Imagens/casa2/08.jpg"  alt = "img8"   class="slider2">
+                        </div>
+                        <button id="next-button2"><img src="Imagens/arrow.png" alt="next-button2"></button>
+                    </div>
+                </div>
+                <button type="button" onclick="Mudarestado('casa3')">
+                <div class="projetos-col">
+                    <img src="Imagens/casa3.png" alt="">
+                    <h3>Casa s.f</h3>
+                    <p>Vicente Pires - DF</p>
+                </div></button>
+                <div id="casa3">
+                    <div class="container-slider-pr">
+                        <button id="prev-button3"><img src="Imagens/arrow.png" alt="prev-button3"></button>
+                        <div class="container-images-pr">
+                            <img src="Imagens/casa3/01.webp"  alt="img1"     class="slider3 on3">
+                            <img src="Imagens/casa3/02.webp"  alt = "img2"   class="slider3">
+                            <img src="Imagens/casa3/03.webp"  alt = "img3"   class="slider3">
+                            <img src="Imagens/casa3/04.webp"  alt = "img4"   class="slider3">
+                            <img src="Imagens/casa3/05.webp"  alt = "img5"   class="slider3">
+                            <img src="Imagens/casa3/06.webp"  alt = "img6"   class="slider3">
+                        </div>
+                        <button id="next-button3"><img src="Imagens/arrow.png" alt="next-button3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!---Interiores-->
+         <section class="interiores">
+            <h1>Interiores</h1>
+            <P>Alguns dos interiores feitos pela nossa companhia <br></P>
+            <div class="row">
+                <button type="button" onclick="Mudarestado('interior')">
+                <div class="interiores-col">
+                    <img src="Imagens/sala.png" height="65%" alt="">
+                    <div class="layer2">
+                        <h3>Clique para ver mais</h3>
+                    </div>
+                </div></button>
+            </div>
+            <div id="interior">
+                <div class="container-slider-pr">
+                    <button id="prev-button4"><img src="Imagens/arrow.png" alt="prev-button4"></button>
+                    <div class="container-images-pr">
+                        <img src="Imagens/interiores/_DSC0003.jpg"  alt="img1"     class="slider4 on4">
+                        <img src="Imagens/interiores/_DSC0005.jpg"  alt = "img2"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0006.jpg"  alt = "img3"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0007.jpg"  alt = "img4"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0008.jpg"  alt = "img5"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0012.jpg"  alt = "img6"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0014.jpg"  alt = "img7"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0015.jpg"  alt = "img8"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0016.jpg"  alt = "img9"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0024.jpg"  alt = "img11"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0026.jpg"  alt = "img12"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0029.jpg"  alt = "img13"   class="slider4">
+                        <img src="Imagens/interiores/_DSC0032.jpg"  alt = "img14"   class="slider4">
+                    </div>
+                    <button id="next-button4"><img src="Imagens/arrow.png" alt="next-button4"></button>
+                </div>
+            </div>
+        </section>
+
+        <!--JavaScript para fechar e abrir o menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script>
+            window.onload = function()
+            {
+                Mudarestado('casa1') 
+                Mudarestado('casa2')
+                Mudarestado('casa3')
+                Mudarestado('interior')
+            };
+        </script>
+        <!---FOOTER-->
+        <section class="footer">
+            <h4>SOBRE NÓS</h4>
+            <p>Somos um escritório de arquitetura, sediado em Brasília - DF, com atendimento em todo o Brasil.<br>
+            Oferecendo design, aliado de técnicas inovadoras e tecnologia de ponta. Implicando em uma arquitetura mais assertiva utilizando tecnologia BIM (Building Information Modeling), reduzindo os custos e maximizando as etapas das obras.<br>
+            Somos dedicados à realização de projetos residenciais, comerciais e coorporativos de alto padrão.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </section>
+
+    </body>
+</html>
